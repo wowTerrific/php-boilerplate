@@ -1,0 +1,7 @@
+CSS for responsive (bootstrap-like flex containers)
+404.php
+contact.php
+sitemap.php
+form_main.php
+
+create & utilize database for images - mySQL
