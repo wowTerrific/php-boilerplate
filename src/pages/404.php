@@ -7,7 +7,7 @@ $page_title = '404';
 <html>
 <head>
 <?php 
-include 'components/meta.php';
+include '../components/meta.php';
 
 ?>
 
@@ -15,7 +15,7 @@ include 'components/meta.php';
 </head>
 <body>
 <?php 
-include 'components/header.php';
+include '../components/header.php';
 ?>
   <div class="body-cont">
     <div class="fof-cont">
@@ -27,7 +27,7 @@ include 'components/header.php';
     </div>
   </div>
 <?php 
-include 'components/footer.php';
+include '../components/footer.php';
 
 ?>
 </body>

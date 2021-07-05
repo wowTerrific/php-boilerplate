@@ -3,19 +3,13 @@ $meta_descripiton = '';
 $meta_keywords = '';
 $page_title = 'Contact | Template';
 
-$phone_number = '(555) 555-5555';
-$email_address = 'example@example.com';
-$mail_address = '123 Sample St.';
-$city = 'Indianapolis';
-$state = 'IN';
-$zip = '46077';
-
+include '../components/_site_vars.php';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 <?php 
-include 'components/meta.php';
+include '../components/meta.php';
 
 ?>
 
@@ -23,17 +17,21 @@ include 'components/meta.php';
 </head>
 <body>
 <?php 
-include 'components/header.php';
+include '../components/header.php';
 ?>
 
   <div class="body-cont">
 	<h1>Contact</h1>
 	<h2>Send Us a Message</h2>
 	<p>Fill out our form to contact our team.<p>
+	
+<?php
+include '../non-static/form_main.php';
+?>
   </div>
 
 <?php
-include 'components/footer.php';
+include '../components/footer.php';
 ?>
 </body>
 </html>

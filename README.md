@@ -3,4 +3,4 @@
 This will soon be an easy-to-use boilerplate to quickly create responsive websites using PHP
 
 Next: write script to take pages from src/ and create static pages in public/
- - condense 'navlinks.php' to '_site_vars.php'
+ - condense pages - should not include full head & footer - only content for 'body.' Let 'create.php' add that code.

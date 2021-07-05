@@ -8,7 +8,7 @@ $page_title = '';
 <html>
 <head>
 <?php 
-include 'components/meta.php';
+include '../components/meta.php';
 
 ?>
 
@@ -16,12 +16,9 @@ include 'components/meta.php';
 </head>
 <body>
 <?php 
-include 'components/header.php';
+include '../components/header.php';
 
-
-include 'components/body.php';
-
-include 'components/footer.php';
+include '../components/footer.php';
 
 ?>
 </body>

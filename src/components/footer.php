@@ -1,5 +1,5 @@
 <?php 
-include 'navlinks.php';
+include '_site_vars.php';
 
 echo ('
 <div class="footer-container">
