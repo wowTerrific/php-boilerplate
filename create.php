@@ -1,5 +1,7 @@
 <?php
 
+include_once './includes.php';
+
 $public = "public/";
 $pages = "src/pages/";
 
